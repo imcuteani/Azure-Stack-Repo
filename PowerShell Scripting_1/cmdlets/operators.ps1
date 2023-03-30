@@ -96,4 +96,4 @@ $str1 -notmatch '[k$]'
 echo "this is powershell fundamentals training"> test.txt
 $cmd = "This is PowerShell training"
 $cmd> test.txt
-echo "this is an example of redirectional operator"> newfile.txt
+echo "this is an example of redirectional operator"> newfile.txtAdded PowerShell Operator content
