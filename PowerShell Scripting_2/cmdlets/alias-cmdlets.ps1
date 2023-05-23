@@ -6,4 +6,4 @@ Get-Help
 # create an Alias 
 New-Alias -Name gh -Value Get-Help
 
-gh Get-CimInstance -Detailed
+gh Get-CimInstance -DetailedAdded PowerShell content
