@@ -9,5 +9,9 @@ New-Alias -Name gh -Value Get-Help
 
 # Change the alias 
 
-Set-Alias -Name gc -Value Get-Command
+Set-Alias -Name gc -Value Get-Command 
+
+# Get the information from alias 
+
+Get-Alias
 
