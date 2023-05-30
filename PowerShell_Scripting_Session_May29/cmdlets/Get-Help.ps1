@@ -1,5 +1,5 @@
 # Get PowerShell help 
-Get-Help
+# Get-Help
 
 # Get Powershell process
 
