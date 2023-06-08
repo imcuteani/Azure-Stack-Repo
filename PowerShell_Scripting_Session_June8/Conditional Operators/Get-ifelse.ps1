@@ -54,3 +54,11 @@ else
     }
 }
 
+# simplify complex business logic 
+
+$user = Get-ADUser -Identity $UserName
+
+if( $null -ne $user -and $user.Department -eq 'Finance' -and $user.Title -match 'Senior' -and $user.HomeDrive -notlike '\\server\*')
+{
+    Write-Host "user belongs to the department"
+}
